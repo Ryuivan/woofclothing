@@ -1,8 +1,10 @@
+import pinkSignatureCrop from '../../assets/product/crop/crop-pink-signature.jpg';
+
 const products = [
     {
         id: 1,
         name: 'Pink Signature Crop Top',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117452492314259557/crop-pink-signature.webp",
+        image: pinkSignatureCrop,
         description: 'A stylish crop top made of 100% cotton.',
         price: '99.000',
         stock: 10,
