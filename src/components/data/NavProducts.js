@@ -1,85 +1,110 @@
-const navProducts = [ 
+import pinkSignatureCrop from '../../assets/product/crop/crop-pink-signature.jpg';
+import greenCrop from '../../assets/product/crop/crop-green.jpg';
+import blackCrop from '../../assets/product/crop/crop-black.jpg';
+import redCrop from '../../assets/product/crop/crop-red.jpg';
+import yellowCrop from '../../assets/product/crop/crop-yellow.jpg';
+import pinkSignatureHoodie from '../../assets/product/hoodies/hoodies-pink-signature.jpg';
+import yellowSignatureHoodie from '../../assets/product/hoodies/hoodies-yellow-signature.jpg';
+import greenHoodie from '../../assets/product/hoodies/hoodies-green.jpg';
+import blackHoodie from '../../assets/product/hoodies/hoodies-black.jpg';
+import redHoodie from '../../assets/product/hoodies/hoodies-red.jpg';
+import yellowHoodie from '../../assets/product/hoodies/hoodies-yellow.jpg';
+import pinkSignatureSweater from '../../assets/product/sweater/sweater-pink-signature.jpg';
+import yellowSignatureSweater from '../../assets/product/sweater/sweater-yellow-signature.jpg';
+import greenSweater from '../../assets/product/sweater/sweater-green.jpg';
+import blackSweater from '../../assets/product/sweater/sweater-black.jpg';
+import redSweater from '../../assets/product/sweater/sweater-red.jpg';
+import yellowSweater from '../../assets/product/sweater/sweater-yellow.jpg';
+import yellowSignatureTshirt from '../../assets/product/tshirt/baju-yellow-signature.jpg';
+import blackTshirt from '../../assets/product/tshirt/baju-black.jpg';
+import greenTshirt from '../../assets/product/tshirt/baju-green.jpg';
+import redTshirt from '../../assets/product/tshirt/baju-red.jpg';
+import yellowTshirt from '../../assets/product/tshirt/baju-yellow.jpg';
+import pinkToteBag from '../../assets/product/tote bag/tote-pink.jpg';
+import yellowToteBag from '../../assets/product/tote bag/tote-yellow.jpg';
+
+const navProducts = [
     {
         id: 1,
         name: 'Pink Signature Crop Top',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117452492314259557/crop-pink-signature.webp",
+        image: pinkSignatureCrop,
         description: 'A stylish crop top made of 100% cotton.',
         price: '99.000',
         stock: 10,
         colors: [
             {
                 code: '#C39DBA',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117452492314259557/crop-pink-signature.webp"
+                image: pinkSignatureCrop,
             }
         ]
     },
     {
         id: 2,
         name: 'Green Crop Top',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117465782637568072/crop-green.webp",
+        image: greenCrop,
         description: 'A stylish crop top made of 100% cotton.',
         price: '99.000',
         stock: 10,
         colors: [
             {
                 code: '#3EA590',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117465782637568072/crop-green.webp"
+                image: greenCrop,
             },
         ]
     },
     {
         id: 3,
         name: 'Black Crop Top',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117460393183416501/crop-black.webp",
+        image: blackCrop,
         description: 'A stylish crop top made of 100% cotton.',
         price: '99.000',
         stock: 10,
         colors: [
             {
                 code: '#626669',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117460393183416501/crop-black.webp"
+                image: blackCrop,
             },
         ]
     },
     {
         id: 4,
         name: 'Red Crop Top',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117469677535375491/crop-red.webp",
+        image: redCrop,
         description: 'A stylish crop top made of 100% cotton.',
         price: '99.000',
         stock: 10,
         colors: [
             {
                 code: '#BB4B63',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117469677535375491/crop-red.webp"
+                image: redCrop,
             },
         ]
     },
     {
         id: 5,
         name: 'Yellow Crop Top',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117470995058540645/crop-yellow.webp",
+        image: yellowCrop,
         description: 'A stylish crop top made of 100% cotton.',
         price: '99.000',
         stock: 10,
         colors: [
             {
                 code: '#E4D793',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117470995058540645/crop-yellow.webp"
+                image: yellowCrop,
             },
         ]
     },
     {
         id: 6,
         name: 'Pink Signature Hoodie',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117455567334674575/hoodies-pink-signature.webp",
+        image: pinkSignatureHoodie,
         description: 'A thick-material hoodie that is still wearable and comfortable.',
         price: '249.000',
         stock: 10,
         colors: [
             {
                 code: '#C39DBA',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117455567334674575/hoodies-pink-signature.webp"
+                image: pinkSignatureHoodie,
             },
         ]
         
@@ -87,14 +112,14 @@ const navProducts = [
     {
         id: 7,
         name: 'Yellow Signature Hoodie',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117455566873317406/hoodies-yellow-signature.webp",
+        image: yellowSignatureHoodie,
         description: 'A thick-material hoodie that is still wearable and comfortable.',
         price: '249.000',
         stock: 10,
         colors: [
             {
                 code: '#fde97f',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117455566873317406/hoodies-yellow-signature.webp"
+                image: yellowSignatureHoodie,
             },
         ]
         
@@ -102,98 +127,98 @@ const navProducts = [
     {
         id: 8,
         name: 'Green Hoodie',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117465781475745893/hoodies-green.webp",
+        image: greenHoodie,
         description: 'A thick-material hoodie that is still wearable and comfortable.',
         price: '249.000',
         stock: 10,
         colors: [
             {
                 code: '#3EA590',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117465781475745893/hoodies-green.webp"
+                image: greenHoodie,
             },
         ]
     },
     {
         id: 9,
         name: 'Black Hoodie',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117460392415875143/hoodies-black.webp",
+        image: blackHoodie,
         description: 'A thick-material hoodie that is still wearable and comfortable.',
         price: '249.000',
         stock: 10,
         colors: [
             {
                 code: '#626669',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117460392415875143/hoodies-black.webp"
+                image: blackHoodie,
             },
         ]
     },
     {
         id: 10,
         name: 'Red Hoodie',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117469677971578890/hoodies-red.webp",
+        image: redHoodie,
         description: 'A thick-material hoodie that is still wearable and comfortable.',
         price: '249.000',
         stock: 10,
         colors: [
             {
                 code: '#BB4B63',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117469677971578890/hoodies-red.webp"
+                image: redHoodie,
             },
         ]
     },
     {
         id: 11,
         name: 'Yellow Hoodie',
-        image: "https://i.pinimg.com/564x/9e/d2/3e/9ed23e172766b22b0e4628af2b8fb323.jpg",
+        image: yellowHoodie,
         description: 'A thick-material hoodie that is still wearable and comfortable.',
         price: '249.000',
         stock: 10,
         colors: [
             {
                 code: '#E4D793',
-                image: "https://i.pinimg.com/564x/9e/d2/3e/9ed23e172766b22b0e4628af2b8fb323.jpg"
+                image: yellowHoodie,
             },
         ]
     },
     {
         id: 12,
         name: 'Pink Signature Sweater',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117455566537760889/sweater-pink-signature.webp",
+        image: pinkSignatureSweater,
         description: 'A sweater that offers high levels of comfort and warmth.',
         price: '199.000',
         stock: 10,
         colors: [
             {
                 code: '#C39DBA',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117455566537760889/sweater-pink-signature.webp"
+                image: pinkSignatureSweater,
             },
         ]
     },
     {
         id: 13,
         name: 'Yellow Signature Sweater',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117455565254303794/sweater-yellow-signature.webp",
+        image: yellowSignatureSweater,
         description: 'A sweater that offers high levels of comfort and warmth.',
         price: '199.000',
         stock: 10,
         colors: [
             {
                 code: '#fde97f',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117455565254303794/sweater-yellow-signature.webp"
+                image: yellowSignatureSweater,
             },
         ]
     },
     {
         id: 14,
         name: 'Green Sweater',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117465782281048114/sweater-green.webp",
+        image: greenSweater,
         description: 'A sweater that offers high levels of comfort and warmth.',
         price: '199.000',
         stock: 10,
         colors: [
             {
                 code: '#3EA590',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117465782281048114/sweater-green.webp"
+                image: greenSweater,
             },
         ]
         
@@ -201,56 +226,56 @@ const navProducts = [
     {
         id: 15,
         name: 'Black Sweater',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117460391941914695/sweater-black.webp",
+        image: blackSweater,
         description: 'A sweater that offers high levels of comfort and warmth.',
         price: '199.000',
         stock: 10,
         colors: [
             {
                 code: '#626669',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117460391941914695/sweater-black.webp"
+                image: blackSweater,
             },
         ]
     },
     {
         id: 16,
         name: 'Red Sweater',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117469676407103589/sweater-red.webp",
+        image: redSweater,
         description: 'A sweater that offers high levels of comfort and warmth.',
         price: '199.000',
         stock: 10,
         colors: [
             {
                 code: '#BB4B63',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117469676407103589/sweater-red.webp"
+                image: redSweater,
             },
         ]  
     },
     {
         id: 17,
         name: 'Yellow Sweater',
-        image: "https://i.pinimg.com/564x/16/b2/71/16b2719600d728daadf85f0de8095256.jpg",
+        image: yellowSweater,
         description: 'A sweater that offers high levels of comfort and warmth.',
         price: '199.000',
         stock: 10,
         colors: [
             {
                 code: '#E4D793',
-                image: "https://i.pinimg.com/564x/16/b2/71/16b2719600d728daadf85f0de8095256.jpg"
+                image: yellowSweater,
             },
         ]
     },
     {
         id: 18,
         name: 'Yellow Signature T-shirt',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117453363961937961/baju-yellow-signature.webp",
+        image: yellowSignatureTshirt,
         description: 'A comfy top made of 100% cotton for Men',
         price: '129.000',
         stock: 10,
         colors: [
             {
                 code: '#fde97f',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117453363961937961/baju-yellow-signature.webp"
+                image: yellowSignatureTshirt,
             }
         ]
 
@@ -258,87 +283,87 @@ const navProducts = [
     {
         id: 19,
         name: 'Black T-shirt',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117460393644806194/baju-black.webp",
+        image: blackTshirt,
         description: 'A comfy top made of 100% cotton for Men',
         price: '129.000',
         stock: 10,
         colors: [
             {
                 code: '#626669',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117460393644806194/baju-black.webp"
+                image: blackTshirt,
             },
         ]
     },
     {
         id: 20,
         name: 'Green T-shirt',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117465781861634128/baju-green.webp",
+        image: greenTshirt,
         description: 'A comfy top made of 100% cotton for Men',
         price: '129.000',
         stock: 10,
         colors: [
             {
                 code: '#3EA590',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117465781861634128/baju-green.webp"
+                image: greenTshirt,
             },
         ]
     },
     {
         id: 21,
         name: 'Red T-shirt',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117469677120127076/baju-red.webp",
+        image: redTshirt,
         description: 'A comfy top made of 100% cotton for Men',
         price: '129.000',
         stock: 10,
         colors: [
             {
                 code: '#BB4B63',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117469677120127076/baju-red.webp"
+                image: redTshirt,
             },
         ]
     },
     {
         id: 22,
         name: 'Yellow T-shirt',
-        image: "https://i.pinimg.com/236x/82/dc/01/82dc01c6eb9a4a3770c193d8fc95898e.jpg",
+        image: yellowTshirt,
         description: 'A comfy top made of 100% cotton for Men',
         price: '129.000',
         stock: 10,
         colors: [
             {
                 code: '#E4D793',
-                image: "https://i.pinimg.com/236x/82/dc/01/82dc01c6eb9a4a3770c193d8fc95898e.jpg"
+                image: yellowTshirt,
             },
         ]
     },
     {
         id: 23,
         name: 'Pink Tote Bag',
-        image: "https://i.pinimg.com/236x/b9/f8/06/b9f806503ab73003c49196a9978c1dad.jpg",
-        description: 'A chic little green bag made entirely of canvas.',
+        image: pinkToteBag,
+        description: 'A minimalist totebag to bring your essentials.',
         price: '79.000',
         stock: 10,
         colors: [
             {
                 code: '#C39DBA',
-                image: "https://i.pinimg.com/236x/b9/f8/06/b9f806503ab73003c49196a9978c1dad.jpg"
+                image: pinkToteBag,
             },
         ]
     },
     {
         id: 24,
         name: 'Yellow Tote Bag',
-        image: "https://i.pinimg.com/236x/d7/0a/b3/d70ab33eb333820e7fe48345721751fa.jpg",
-        description: 'A chic little yellow bag made entirely of canvas.',
+        image: yellowToteBag,
+        description: 'A minimalist totebag to bring your essentials.',
         price: '79.000',
         stock: 10,
         colors: [
             {
-                code: '#fde97f',
-                image: "https://i.pinimg.com/236x/d7/0a/b3/d70ab33eb333820e7fe48345721751fa.jpg"
+                code: '#E4D793',
+                image: yellowToteBag,
             },
         ]
-    },
+    }
 ];
 
 export default navProducts;
