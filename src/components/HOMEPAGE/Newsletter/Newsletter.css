@@ -2,7 +2,7 @@
     height: 60vh;
     display: flex;
     align-items: center;
-    background-image: url('https://cdn.discordapp.com/attachments/1091562630591811594/1117464218954895461/newsletter-banner.webp');
+    background-image: url('../../../assets/banner/newsletter.jpg');
     justify-content: center;
     flex-direction: column;
 }

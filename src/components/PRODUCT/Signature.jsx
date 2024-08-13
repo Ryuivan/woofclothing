@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import ReactStars from 'react-rating-stars-component';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Product.css';
-import signature from '../data/Signature';
+import signature from '../data/SignatureProducts';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Typewriter from 'typewriter-effect';
