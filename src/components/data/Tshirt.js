@@ -1,71 +1,77 @@
+import yellowSignatureTshirt from '../../assets/product/tshirt/baju-yellow-signature.jpg';
+import blackTshirt from '../../assets/product/tshirt/baju-black.jpg';
+import greenTshirt from '../../assets/product/tshirt/baju-green.jpg';
+import redTshirt from '../../assets/product/tshirt/baju-red.jpg';
+import yellowTshirt from '../../assets/product/tshirt/baju-yellow.jpg';
+
 const tshirt = [
     {
         id: 18,
         name: 'Yellow Signature T-shirt',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117453363961937961/baju-yellow-signature.webp",
+        image: yellowSignatureTshirt,
         description: 'A comfy top made of 100% cotton for Men',
         price: '129.000',
         stock: 10,
         colors: [
             {
                 code: '#fde97f',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117453363961937961/baju-yellow-signature.webp"
+                image: yellowSignatureTshirt
             }
         ]
     },
     {
         id: 19,
         name: 'Black T-shirt',
-        image: "https://i.pinimg.com/236x/9e/b5/b6/9eb5b636e4d8ae1f05e31a0bdcfc978f.jpg",
+        image: blackTshirt,
         description: 'A comfy top made of 100% cotton for Men',
         price: '129.000',
         stock: 10,
         colors: [
             {
                 code: '#626669',
-                image: "https://i.pinimg.com/236x/9e/b5/b6/9eb5b636e4d8ae1f05e31a0bdcfc978f.jpg"
+                image: blackTshirt
             },
         ]
     },
     {
         id: 20,
         name: 'Green T-shirt',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117465781861634128/baju-green.webp",
+        image: greenTshirt,
         description: 'A comfy top made of 100% cotton for Men',
         price: '129.000',
         stock: 10,
         colors: [
             {
                 code: '#3EA590',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117465781861634128/baju-green.webp"
+                image: greenTshirt
             },
         ]
     },
     {
         id: 21,
         name: 'Red T-shirt',
-        image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117469677120127076/baju-red.webp",
+        image: redTshirt,
         description: 'A comfy top made of 100% cotton for Men',
         price: '129.000',
         stock: 10,
         colors: [
             {
                 code: '#BB4B63',
-                image: "https://cdn.discordapp.com/attachments/1091562630591811594/1117469677120127076/baju-red.webp"
+                image: redTshirt
             },
         ]
     },
     {
         id: 22,
         name: 'Yellow T-shirt',
-        image: "https://i.pinimg.com/236x/82/dc/01/82dc01c6eb9a4a3770c193d8fc95898e.jpg",
+        image: yellowTshirt,
         description: 'A comfy top made of 100% cotton for Men',
         price: 'Rp. 129.000',
         stock: 10,
         colors: [
             {
                 code: '#E4D793',
-                image: "https://i.pinimg.com/236x/82/dc/01/82dc01c6eb9a4a3770c193d8fc95898e.jpg"
+                image: yellowTshirt
             },
         ]
     }
