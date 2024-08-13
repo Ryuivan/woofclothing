@@ -1,25 +1,29 @@
+import b1 from "../../../assets/banner/b1.jpg";
+import b2 from "../../../assets/banner/b2.jpg";
+import b3 from "../../../assets/banner/b3.jpg";
+
 const promotionData = [
-    {
-      id: 1,
-      img: 'https://cdn.discordapp.com/attachments/1091562630591811594/1112336020244017182/b2.webp',
-      title: "SWEATER COLLECTION",
-      bg: "f5fafd",
-      link: '/sweater'
-    },
-    {
-      id: 2,
-      img: 'https://cdn.discordapp.com/attachments/1091562630591811594/1112336019908468777/b1.webp',
-      title: "SIGNATURE COLLECTION",
-      bg: "fcf1ed",
-      link: '/signature'
-    },
-    {
-      id: 3,
-      img: 'https://cdn.discordapp.com/attachments/1091562630591811594/1112336020751515731/b3.webp',
-      title: "CROP TOP COLLECTION",
-      bg: "fbf0f4",
-      link: '/crop-top'
-    },
-  ];
+  {
+    id: 1,
+    img: b1,
+    title: "SWEATER COLLECTION",
+    bg: "f5fafd",
+    link: "/sweater",
+  },
+  {
+    id: 2,
+    img: b2,
+    title: "SIGNATURE COLLECTION",
+    bg: "fcf1ed",
+    link: "/signature",
+  },
+  {
+    id: 3,
+    img: b3,
+    title: "CROP TOP COLLECTION",
+    bg: "fbf0f4",
+    link: "/crop-top",
+  },
+];
 
 export default promotionData;
